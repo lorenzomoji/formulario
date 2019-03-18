@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE preguntas SYSTEM "formulario.xml">
+<preguntas>
+    <pregunta>
+        <type>text</type>
+        <title>¿Cuál es el nombre del protagonista?</title>
+        <answer>Ash</answer>
+    </pregunta>
+    <pregunta>
+        <type>text</type>
+        <title>¿Qué Pokemon lleva siempre el protagonista?</title>
+        <answer>Pikachu</answer>
+    </pregunta>
+    <pregunta>
+        <type>select</type>
+        <title>¿Dónde se guardan los Pokemon?</title>
+        <option>Caja</option>
+        <option>Pokeballs</option>
+        <option>Pokecajas</option>
+        <option>Pokemonturas</option>
+        <answer>1</answer>
+    </pregunta>
+    <pregunta>
+        <type>select</type>
+        <title>¿Cuántas ligas ha ganado nuestro protagonista?</title>
+        <option>0</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <answer>0</answer>
+    </pregunta>
+    <pregunta>
+        <type>multiple</type>
+        <title>¿Qué Pokemon ha tenido el protagonista?</title>
+        <option>Arbok</option>
+        <option>Charizard</option>
+        <option>Heracross</option>
+        <option>Dragonite</option>
+        <option>Smoochoom</option>
+        <answer>1</answer>
+        <answer>2</answer>
+     </pregunta>
+     <pregunta>
+        <type>multiple</type>
+        <title>¿Qué Pokemon no ha tenido el protagonista?</title>
+        <option>Charmeleon</option>
+        <option>Spinarak</option>
+        <option>Lapras</option>
+        <option>Meowth</option>
+        <option>Feebas</option>
+        <answer>1</answer>
+        <answer>3</answer>
+        <answer>4</answer>
+    </pregunta>
+    <pregunta>
+        <type>chekcbox</type>
+        <title>¿Qué personajes era villanos?</title>
+        <option>Jessie</option>
+        <option>Brok</option>
+        <option>Misty</option>
+        <option>James</option>
+        <answer>0</answer>
+        <answer>3</answer>
+    </pregunta>
+    <pregunta>
+        <type>chekcbox</type>
+        <title>¿Qué personajes eran familia entre si?</title>
+        <option>Mara</option>
+        <option>Joy</option>
+        <option>Oak</option>
+        <option>Abedul</option>
+        <option>Gary</option>
+        <answer>0</answer>
+        <answer>1</answer>
+    </pregunta>
+    <pregunta>
+        <type>radio</type>
+        <title>¿Cuántos ataques puede aprender un Pokemon?</title>
+        <option>0</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <answer>4</answer>
+    </pregunta>
+    <pregunta>
+        <type>radio</type>
+        <title>¿De cuántos tipos puede ser un Pokemon como máximo?</title>
+        <option>4</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <answer>2</answer>
+    </pregunta>
+</preguntas>
