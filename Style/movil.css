@@ -1,5 +1,5 @@
 body,html{
-	background-image:url("Imagenes/background.jpg");
+	background-image:url("imagenes/background.jpg");
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 	background-size:cover;	
@@ -11,11 +11,11 @@ body,html{
 	text-align:center;
 	background-color:#1a1e23;
 	color:white;
-	width:8.5%;
-	height:8.5%;
-	margin-left:42%;
+	width:25%;
+	height:25%;
+	margin-left:36%;
 	margin-right:40%;
-	margin-top:3%;
+	margin-top:5%;
 	border-width:4.5px;
 	border-style:groove;
 	border-color:white;
@@ -23,33 +23,24 @@ body,html{
 
 #logo{
 	position:relative;
-	width:80%;
-	height:80%;
+	width:100%;
+	height:100%;
 	margin-right:5%;
 	margin-top:5%;
-	margin-left:5%;
+	
 	margin-bottom:5%;	
 }
 
-#submit {
-    width: 50%;
-    height: 50%;
-}
-
 #preguntas{
-	border-width:7.5px;
+	margin-top:10%;
+	
 	position: absolute;
-	border-style:groove;
-	border-color:white;
+	
+	
 	background-color:#1a1e23;
-	border-radius: 32px 32px 32px 32px;
-	-moz-border-radius: 32px 32px 32px 32px;
-	-webkit-border-radius: 32px 32px 32px 32px;
+	
 	color:white;
-	margin-left:20%;
-	margin-right:20%;
-	margin-top:5%;
-	width:55%;
+	width:100%;
 }
 
 #formulario{
@@ -57,20 +48,18 @@ body,html{
 	width:100%;
 }
 
-textarea{
-	margin-left:5%;
-}
+
 
 select{
 	margin-left:5%;
-	width:40%;
-	font-size:2vw
+	width:90%;
+	font-size:6vw;
 }
 
-input[type=text]{
+input{
 	margin-left:5%;
-	width:40%;
-	font-size:2vw
+	width:90%;
+	font-size:6vw;
 }
 
 checkbox{
@@ -79,12 +68,13 @@ checkbox{
 }
 
 .tipos{
-	margin-top:1.5%;
-	font-size:2vw;
+	
+	font-size:6vw;
 }
 
 #pregunta1{
 	border-bottom:3px groove white;
+	border-top:3px groove white;
 	height:8.5%;
 }
 
@@ -138,10 +128,6 @@ checkbox{
 	height:0.5%;
 }
 
-h1 {
-    text-align: center;
-}
-
 h3{
 	margin-top:1%;
 	margin-left:3.5%;
@@ -150,26 +136,29 @@ h3{
 
 #contenedor{
 	display:none;
-	border-width:7.5px;
+	border-bottom:7.5px;
+	border-top:7.5px;
 	position: absolute;
 	border-style:groove;
 	border-color:white;
 	background-color:#1a1e23;
-	border-radius: 32px 32px 32px 32px;
-	-moz-border-radius: 32px 32px 32px 32px;
-	-webkit-border-radius: 32px 32px 32px 32px;
 	color:white;
-	margin-left:20%;
-	margin-right:20%;
-	margin-top:5%;
-	font-size:2vw;
-	width:55%;
+	margin-top:10%;
+	font-size:7vw;
+	width:100%;
 }
 
 h4{
 	margin-left:2%;
 	margin-top:2%;
 }
+input[type=checkbox],[type=radio]{
+	width:30px;
+	height:25px;
+	vertical-align:-3px;
+	
+}
+
 
 /*Página principal*/
 #cabecera{
@@ -177,9 +166,9 @@ h4{
 	text-align:center;
 	background-color:#1a1e23;
 	color:white;
-	width:8.5%;
-	height:8.5%;
-	margin-left:42%;
+	width:25%;
+	height:25%;
+	margin-left:37%;
 	margin-right:40%;
 	margin-top:3%;
 	border-width:4.5px;
@@ -196,10 +185,9 @@ h4{
 	margin-bottom:5%;	
 }
 #menu{
-	width:55%;
+	width:100%;
 	
-	margin-left:20%;
-	margin-right:20%;
+	
 	
 }
 ul {
@@ -207,7 +195,7 @@ ul {
 	list-style-type: none;
 	overflow: hidden;
 	background-color: #1a1e23;
-	font-size:2vw;
+	font-size:7vw;
 	border-width:4.5px;
 	border-style:groove;
 	border-color:white;
@@ -226,12 +214,12 @@ li {
 	
 }
 #informacion{
-	width:55%;
+	
+	width:100%;
 	margin:0;
-	margin-left:20%;
-	margin-right:20%;
+	padding:0;
 	background-color: #1a1e23;
-	font-size:2vw;
+	font-size:7vw;
 	color:white;
 	border-width:4.5px;
 	border-style:groove;
@@ -239,12 +227,11 @@ li {
 }
 #examen{
 	display:none;
-	width:55%;
+	width:100%;
+	padding:0;
 	margin:0;
-	margin-left:20%;
-	margin-right:20%;
 	background-color: #1a1e23;
-	font-size:2vw;
+	font-size:7vw;
 	color:white;
 	border-width:4.5px;
 	border-style:groove;
@@ -252,12 +239,11 @@ li {
 }
 #about{
 	display:none;
-	width:55%;
+	width:100%;
 	margin:0;
-	margin-left:20%;
-	margin-right:20%;
+	padding:0;
 	background-color: #1a1e23;
-	font-size:2vw;
+	font-size:7vw;
 	color:white;
 	border-width:4.5px;
 	border-style:groove;
@@ -268,8 +254,9 @@ li {
 	color:#CFCFCF;
 }
 #volver{
-	margin-left:30%;
-	color:#CFCFCF;
+	margin-left:10%;
+	margin-bottom:5%;
+	
 	
 }
 h2{
@@ -278,4 +265,3 @@ h2{
 	padding-top:1.5%;
 	
 	
-}
