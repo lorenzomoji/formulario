@@ -1,5 +1,5 @@
 // fichero xml que está en el servidor rawgit
-var url="https://rawgit.com/JuanAntonioBieto/LM-Formulario/master/xml/xmlconDTD.xml";
+var url="https://rawcdn.githack.com/lorenzomoji/formulario/57f4182c7f066ddf5ff90bc9f394d9254597e3a6/formulario.xml";
 
 //Variables
 var i = 0;

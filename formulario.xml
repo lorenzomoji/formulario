@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE preguntas SYSTEM "formulario.xml">
+<!DOCTYPE preguntas SYSTEM "dtd.dtd">
 <preguntas>
     <pregunta>
         <type>text</type>
         <title>¿Cuál es el nombre del protagonista?</title>
         <answer>Ash</answer>
     </pregunta>
+
     <pregunta>
         <type>text</type>
         <title>¿Qué Pokemon lleva siempre el protagonista?</title>
         <answer>Pikachu</answer>
     </pregunta>
+
     <pregunta>
         <type>select</type>
         <title>¿Dónde se guardan los Pokemon?</title>
@@ -20,6 +22,7 @@
         <option>Pokemonturas</option>
         <answer>1</answer>
     </pregunta>
+
     <pregunta>
         <type>select</type>
         <title>¿Cuántas ligas ha ganado nuestro protagonista?</title>
@@ -29,6 +32,7 @@
         <option>3</option>
         <answer>0</answer>
     </pregunta>
+
     <pregunta>
         <type>multiple</type>
         <title>¿Qué Pokemon ha tenido el protagonista?</title>
@@ -40,6 +44,7 @@
         <answer>1</answer>
         <answer>2</answer>
      </pregunta>
+
      <pregunta>
         <type>multiple</type>
         <title>¿Qué Pokemon no ha tenido el protagonista?</title>
@@ -52,6 +57,7 @@
         <answer>3</answer>
         <answer>4</answer>
     </pregunta>
+
     <pregunta>
         <type>chekcbox</type>
         <title>¿Qué personajes era villanos?</title>
@@ -62,6 +68,7 @@
         <answer>0</answer>
         <answer>3</answer>
     </pregunta>
+
     <pregunta>
         <type>chekcbox</type>
         <title>¿Qué personajes eran familia entre si?</title>
@@ -73,6 +80,7 @@
         <answer>0</answer>
         <answer>1</answer>
     </pregunta>
+
     <pregunta>
         <type>radio</type>
         <title>¿Cuántos ataques puede aprender un Pokemon?</title>
@@ -83,6 +91,7 @@
         <option>4</option>
         <answer>4</answer>
     </pregunta>
+
     <pregunta>
         <type>radio</type>
         <title>¿De cuántos tipos puede ser un Pokemon como máximo?</title>
